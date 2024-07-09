@@ -12,17 +12,51 @@ This is the online repository for the original article titled "Biobank-scale gen
 THIS_REPO
 ├── README.md
 └── analyses
-    ├── AMP-PD
-    │   └── 00_AMPPD_Data_Prep.ipynb
+    ├── UKB
+    │   └── 00_UKB.ipynb
+    ├── AMP-DLB
+    │   └── 00_AMP-DLB.ipynb
+    │   └── 01_AMP-DLB.ipynb
+    │   └── 02_AMP-DLB.ipynb
     ├── AllOfUs
-    │   ├── 00_AoU_Prep_Analysis_Controlsover70.ipynb
-    │   ├── 01_AoU_Prep_Analysis_Cases.ipynb
-    │   └── 02_AoU_Prep_Analysis_MaternalProxies.ipynb
-    └── GP2
-        ├── 00_GP2_Data_Prep.ipynb
-        └── 01_GP2_Analysis.ipynb
+    │   ├── 00_AoU.ipynb
+    │   └── 01_AoU.ipynb
+    │   └── 02_AoU.ipynb
+    │   └── 03_AoU.ipynb
+    └── ADSP
+        ├── 00_ADSP.ipynb
+        └── 01_ADSP.ipynb
+        └── 02_ADSP.ipynb
+        
 ```
 
 ### Analysis Notebooks
-* Languages: Python, bash, and R
+* Languages: Python and bash
+
+| **Directory** | Notebooks        | Description                        |
+|---------------|------------------|------------------------------------|
+| UKB/          | 00_UKB.ipynb |   |
+|
+| AMP-DLB/      | 00_AMP-DLB | Querying AMP_DLB to check for variants of interest |
+|               | 01_AMP-DLB | Querying AMP_DLB for APOE genotyping |
+|               | 02_AMP-DLB | Querying AMP_DLB to define cases and controls in each ancestry and to obtain demographic data |
+|
+| AllOfUs/      | 00_AoU | Query AllofUs to create three cohorts (AD, Dementia, and Control), and characterize the genes of interest  |
+|               | 01_AoU | Querying All of Us to prepare data for Genotools, applying Genotools, and calculating allele frequency   |
+|               | 02_AoU | Querying AllofUs for APOE genotyping and defining ancestry for each genotype  |
+|               | 03_AoU | Querying AllofUs for demographic data |
+|
+| ADSP/         | 00_ADSP  | Querying ADSP to check for variants of interest, allele frequency, and to calculate missingness |
+|               | 01_ADSP  | Querying ADSP for APOE genotyping |
+|               | 02_ADSP  | Querying ADSP for demographic data |
+
+
+# Software 
+|               Software              |  Version(s) |                              Resource URL                              |       RRID      |                                               Notes                                               |   |
+|:-----------------------------------:|:-----------:|:----------------------------------------------------------------------:|:---------------:|:-------------------------------------------------------------------------------------------------:|:-:|
+|     Python Programming Language     | 3.8 and 3.9 |                         http://www.python.org/                         | RRID:SCR_008394 | pandas; numpy; seaborn; matplotlib; statsmodel; used for general data wrangling/plotting/analyses |   |
+
+|                PLINK                |     2.0     |                   http://www.nitrc.org/projects/plink                  | RRID:SCR_001757 |                                     used for genetic analyses                                     |   |
+|         samtools (bcftools)         |     1.9     |                         https://www.htslib.org/                        | RRID:SCR_002105 |                                          VCF manipulation                                         |   |
+
 
