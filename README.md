@@ -1,6 +1,6 @@
 # Biobank-scale genetic characterization of Alzheimer’s disease and related dementias across diverse populations
 ## Summary
-This is the online repository for the original article titled "Biobank-scale genetic characterization of Alzheimer’s disease and related dementias across diverse populations." This study aims to conduct genetic characterization of key genes associated with dementia across different ancestry populations using the largest biobank-scale datasets, including AllofUs, UK Biobank, ADSP, AMP-DLB, and Genomics England.
+This is the online repository for the original article titled "Biobank-scale genetic characterization of Alzheimer’s disease and related dementias across diverse populations." This study aims to conduct genetic characterization of key genes associated with dementia across different ancestry populations using the largest biobank-scale datasets, including AllofUs, UK Biobank, ADSP, AMP PDRD, and 100KGP.
 ### Data Statement 
 * The All of Us genomic data are available under restricted access for human subject data. Access can be obtained by following the instructions under the All of Us workbench
 * Primary data from the 100KGP, which are held in a secure Research Environment, are available to registered users. Please see https://www.genomicsengland.co.uk/about-gecip/for-gecip-members/data-and-data-access for further information
@@ -14,10 +14,10 @@ THIS_REPO
 └── analyses
     ├── UKB
     │   └── 00_UKB.ipynb
-    ├── AMP-DLB
-    │   └── 00_AMP-DLB.ipynb
-    │   └── 01_AMP-DLB.ipynb
-    │   └── 02_AMP-DLB.ipynb
+    ├── AMP PDRD
+    │   └── 00_AMP PDRD.ipynb
+    │   └── 01_AMP PDRD.ipynb
+    │   └── 02_AMP PDRD.ipynb
     ├── AllOfUs
     │   ├── 00_AoU.ipynb
     │   └── 01_AoU.ipynb
@@ -37,9 +37,9 @@ THIS_REPO
 |---------------|------------------|------------------------------------|
 | UKB/          | 00_UKB.ipynb |   |
 |
-| AMP-DLB/      | 00_AMP-DLB | Querying AMP_DLB to check for variants of interest |
-|               | 01_AMP-DLB | Querying AMP_DLB for APOE genotyping |
-|               | 02_AMP-DLB | Querying AMP_DLB to define cases and controls in each ancestry and to obtain demographic data |
+| AMP PDRD/     | 00_AMP PDRD | Querying AMP PDRD to check for variants of interest |
+|               | 01_AMP PDRD | Querying AMP PDRD for APOE genotyping |
+|               | 02_AMP PDRD | Querying AMP PDRD to define cases and controls in each ancestry and to obtain demographic data |
 |
 | AllOfUs/      | 00_AoU | Query AllofUs to create three cohorts (AD, Dementia, and Control), and characterize the genes of interest  |
 |               | 01_AoU | Querying All of Us to prepare data for Genotools, applying Genotools, and calculating allele frequency   |
