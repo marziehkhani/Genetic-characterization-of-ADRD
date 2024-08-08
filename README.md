@@ -35,7 +35,7 @@ THIS_REPO
 
 | **Directory** | Notebooks        | Description                        |
 |---------------|------------------|------------------------------------|
-| UKB/          | 00_UKB.ipynb |   |                                    |
+| UKB/          | 00_UKB.ipynb     |                                    |
 |
 | AMP PDRD/     | 00_AMP PDRD | Querying AMP PDRD to check for variants of interest |
 |               | 01_AMP PDRD | Querying AMP PDRD for APOE genotyping |
