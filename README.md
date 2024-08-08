@@ -40,12 +40,12 @@ THIS_REPO
 | AMP PDRD/     | 00_AMP PDRD | Querying AMP PDRD to check for variants of interest |
 |               | 01_AMP PDRD | Querying AMP PDRD for APOE genotyping |
 |               | 02_AMP PDRD | Querying AMP PDRD to define cases and controls in each ancestry and to obtain demographic and phenotype data |
-|
+||||
 | AllOfUs/      | 00_AoU | Query AllofUs to create three cohorts (AD, Dementia, and Control), and characterize the genes of interest  |
 |               | 01_AoU | Querying All of Us to prepare data for Genotools, applying Genotools, and calculating allele frequency   |
 |               | 02_AoU | Querying AllofUs for APOE genotyping and defining ancestry for each genotype  |
 |               | 03_AoU | Querying AllofUs for demographic and phenotype data |
-|
+||||
 | ADSP/         | 00_ADSP  | Querying ADSP to check for variants of interest, allele frequency, and to calculate missingness |
 |               | 01_ADSP  | Querying ADSP for APOE genotyping |
 |               | 02_ADSP  | Querying ADSP for demographic and phenotype data |
