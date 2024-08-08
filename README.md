@@ -51,12 +51,9 @@ THIS_REPO
 |               | 02_ADSP  | Querying ADSP for demographic and phenotype data |
 
 
-# Software 
 |               Software              |  Version(s) |                              Resource URL                              |       RRID      |                                               Notes                                               |   |
 |:-----------------------------------:|:-----------:|:----------------------------------------------------------------------:|:---------------:|:-------------------------------------------------------------------------------------------------:|:-:|
 |     Python Programming Language     | 3.8 and 3.9 |                         http://www.python.org/                         | RRID:SCR_008394 | pandas; numpy; seaborn; matplotlib; statsmodel; used for general data wrangling/plotting/analyses |   |
-
-|                PLINK                | 1.9 and 2.0 |                   http://www.nitrc.org/projects/plink                  | RRID:SCR_001757 |                                     used for genetic analyses                                     |   |
-|         samtools (bcftools)         |     1.9     |                         https://www.htslib.org/                        | RRID:SCR_002105 |                                          VCF manipulation                                         |   |
-
+|     PLINK     | 1.9 and 2.0 |                           http://www.nitrc.org/projects/plink                          | RRID:SCR_001757 | used for genetic analyses  |   |
+|     samtools (bcftools)      | 1.9  |                           https://www.htslib.org/                          | RRID:SCR_002105 | VCF manipulation  |   |
 
